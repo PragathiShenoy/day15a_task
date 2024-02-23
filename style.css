@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  height: 80vh; 
+  background-color: #2c3e50; 
+  color: white; 
+}
+
+.table-container {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px; /* Add some border radius for a softer look */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #34495e; /* Darker border color */
+}
+
+th {
+  background-color: #2c3e50; /* Dark blue header background color */
+}
+
+.pagination-container {
+  margin-top: 20px;
+}
+
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, button:disabled:hover {
+        background-color: #0056b3;
+    }
+
+button.active {
+  background-color: #2980b9; /* Slightly darker blue for active button */
+}
